@@ -1,7 +1,6 @@
 // components/Navbar.js
 "use client";  // Ensures this component runs on the client side
 
-import { Facebook, Twitter, Instagram } from 'lucide-react';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 

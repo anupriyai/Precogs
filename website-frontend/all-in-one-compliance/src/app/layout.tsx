@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import Navbar from './components/Navbar'
+import { Facebook, Twitter, Instagram } from 'lucide-react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,6 +50,11 @@ export default function RootLayout() {
         <footer className="bg-cyan-700 text-white py-4 fade-in">
           <div className="container mx-auto px-4 flex justify-between items-center">
             <p>&copy; 2024 Precog.ai. All rights reserved.</p>
+            <div className="flex space-x-4">
+              <a href="#" className="hover:text-cyan-200"><Facebook size={24} /></a>
+              <a href="#" className="hover:text-cyan-200"><Twitter size={24} /></a>
+              <a href="#" className="hover:text-cyan-200"><Instagram size={24} /></a>
+            </div>
           </div>
         </footer>
       </body>
