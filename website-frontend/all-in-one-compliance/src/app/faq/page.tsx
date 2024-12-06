@@ -8,40 +8,40 @@ const FAQ = () => {
     {
       question: "What is Precog.ai, and how does it work?",
       answer:
-        "Precog.ai is a real-time data protection tool that detects and alerts users to risky actions, such as sharing sensitive information (passwords, credit card details, etc.) on insecure platforms. By providing instant notifications, it helps users avoid costly mistakes and stay protected online.",
+        "Precogs is a real-time data protection tool that detects and alerts users to risky actions, such as sharing sensitive information (passwords, credit card details, etc.) on insecure platforms. By providing instant notifications, it helps users avoid costly mistakes and stay protected online.",
     },
     {
       question: "How is Precog.ai different from traditional cybersecurity tools?",
       answer:
-        "Unlike traditional cybersecurity tools that act after a breach occurs, Precog.ai is proactive. It intervenes at the source, detecting risky behavior in real-time and preventing mistakes before they happen. Its focus is on empowering individuals with simple, actionable alerts.",
+        "Unlike traditional cybersecurity tools that act after a breach occurs, Precogs is proactive. It intervenes at the source, detecting risky behavior in real-time and preventing mistakes before they happen. Its focus is on empowering individuals with simple, actionable alerts.",
     },
     {
-      question: "What platforms does Precog.ai support?",
+      question: "What platforms does Precogs support?",
       answer:
-        "The initial version of Precog.ai is a browser extension compatible with popular web browsers like Chrome and Firefox. Future updates will include integrations with messaging apps and email clients to expand its coverage.",
+        "The initial version of Precogs is a browser extension compatible with popular web browsers like Chrome and Firefox. Future updates will include integrations with messaging apps and email clients to expand its coverage.",
     },
     {
-      question: "Who can use Precog.ai?",
+      question: "Who can use Precogs?",
       answer:
-        "Precog.ai is designed for everyone—individuals, small businesses, and even enterprises. It’s simple enough for non-technical users but powerful enough to provide robust protection for anyone at risk of scams or data breaches.",
+        "Precogs is designed for everyone—individuals, small businesses, and even enterprises. It’s simple enough for non-technical users but powerful enough to provide robust protection for anyone at risk of scams or data breaches.",
     },
     {
-      question: "Is Precog.ai affordable?",
+      question: "Is Precogs affordable?",
       answer:
-        "Yes! Precog.ai offers a freemium version for individuals with basic features. For advanced protection, the Pro Plan is available at $19.99 per user per month, and enterprises can request custom pricing tailored to their needs.",
+        "Yes! Precogs offers a freemium version for individuals with basic features. For advanced protection, the Pro Plan is available at $19.99 per user per month, and enterprises can request custom pricing tailored to their needs.",
     },
     {
-      question: "What types of sensitive information does Precog.ai detect?",
+      question: "What types of sensitive information does Precogs detect?",
       answer:
         "Precog.ai can identify a variety of sensitive data, including passwords, credit card numbers, and personal identifiers (e.g., Social Security Numbers). Advanced plans allow customizable detection for specific types of sensitive data.",
     },
     {
       question: "How does Precog.ai ensure user privacy?",
       answer:
-        "Precog.ai focuses only on detecting sensitive information and does not store or monitor unrelated user activity. All processing is done locally or securely, ensuring user privacy while providing robust protection.",
+        "Precogs focuses only on detecting sensitive information and does not store or monitor unrelated user activity. All processing is done locally or securely, ensuring user privacy while providing robust protection.",
     },
     {
-      question: "When will Precog.ai be available?",
+      question: "When will Precogs be available?",
       answer:
         "The Minimum Viable Product (MVP) is currently under development and expected to launch for beta testing in the next 3–6 months. Public availability will follow shortly after, starting with the browser extension and expanding to other platforms.",
     },
