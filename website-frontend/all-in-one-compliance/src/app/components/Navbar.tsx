@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className={`sticky top-0 z-50 px-4 py-3 ${isScrolled ? 'bg-cyan-900 backdrop-blur-md' : 'bg-transparent'}`}>
       <nav className="container mx-auto flex justify-between items-center text-white">
-        <Link href="/" className="text-3xl font-bold">Precogs.ai</Link>
+        <Link href="/" className="text-3xl font-bold">Precogs</Link>
         <ul className="flex space-x-8 text-lg">
           <li><Link href="/features" className="hover:text-cyan-200">Features</Link></li>
           <li><Link href="/pricing" className="hover:text-cyan-200">Pricing</Link></li>

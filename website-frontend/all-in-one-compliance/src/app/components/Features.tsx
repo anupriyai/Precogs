@@ -54,7 +54,7 @@ const featureContent: Record<string, Feature> = {
   },
 };
 
-const Features = () => {
+const Features: React.FC = () => {
   // State to track the selected feature
   const [selectedFeature, setSelectedFeature] = useState<keyof typeof featureContent>(
     "Security and Privacy"
@@ -65,10 +65,12 @@ const Features = () => {
       {/* Introductory Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">
-        Built for Everyone—From Individuals to Enterprises
+          Built for Everyone—From Individuals to Enterprises
         </h1>
         <p className="text-lg text-gray-200">
-        Our features provide seamless compliance, robust data protection, and an intuitive user experience—empowering individuals, teams, and businesses of all sizes to stay secure and compliant in the digital age.
+          Our features provide seamless compliance, robust data protection, and an intuitive
+          user experience—empowering individuals, teams, and businesses of all sizes to stay
+          secure and compliant in the digital age.
         </p>
       </div>
 
@@ -101,9 +103,7 @@ const Features = () => {
         <section className="w-2/3">
           <div
             className="p-6 bg-white rounded-lg shadow flex items-center"
-            style={{
-              minHeight: "500px",
-            }}
+            style={{ minHeight: "500px" }}
           >
             {/* Left Side: Image */}
             <div className="w-1/2 h-full">
@@ -111,9 +111,7 @@ const Features = () => {
                 src={featureContent[selectedFeature].image}
                 alt={featureContent[selectedFeature].title}
                 className="rounded-lg shadow-lg w-full h-full object-cover"
-                style={{
-                  height: "450px",
-                }}
+                style={{ height: "450px" }}
               />
             </div>
 
